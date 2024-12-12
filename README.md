@@ -3,6 +3,8 @@
 ## Introdução
 
 Bem-vindos ao workshop de React! Este repositório serve como apoio para acompanhar o conteúdo e realizar as práticas ao longo do curso. Qualquer dúvida, não hesite em recorrer aos instrutores que estarão disponíveis para ajudar.
+
+settings.py
 ```python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -50,9 +52,10 @@ STATICFILES_DIRS = [ BASE_DIR / 'build/static']
 STATIC_ROOT = BASE_DIR / 'static'
 CORS_ORIGIN_ALLOW_ALL = True
 
+```
+
 No urls.py adicionar
-
-
+```python
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.views.generic import TemplateView
@@ -66,6 +69,7 @@ urlpatterns = [
 urlpatterns += [ re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]
 
 ````
+
 ## Criando o primeiro componente - Navbar
 
 ```bash
