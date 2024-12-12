@@ -3,7 +3,7 @@
 ## Introdução
 
 Bem-vindos ao workshop de React! Este repositório serve como apoio para acompanhar o conteúdo e realizar as práticas ao longo do curso. Qualquer dúvida, não hesite em recorrer aos instrutores que estarão disponíveis para ajudar.
-
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -65,7 +65,7 @@ urlpatterns = [
 
 urlpatterns += [ re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]
 
-
+````
 ## Criando o primeiro componente - Navbar
 
 ```bash
