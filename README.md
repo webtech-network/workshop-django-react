@@ -4,7 +4,9 @@
 
 Bem-vindos ao workshop de React! Este repositório serve como apoio para acompanhar o conteúdo e realizar as práticas ao longo do curso. Qualquer dúvida, não hesite em recorrer aos instrutores que estarão disponíveis para ajudar.
 
-settings.py
+## Configurações
+
+No Settings.py
 ```python
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,7 +56,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 ```
 
-No urls.py adicionar
+No urls.py
 ```python
 from django.contrib import admin
 from django.urls import path, include, re_path
